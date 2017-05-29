@@ -9,7 +9,8 @@ sense = SenseHat()
 # Set up the colours (white, green, red, empty)
 
 # Modification du blanc en jaune
-w = (255, 255, 0)
+# Modifier par le groupe 5
+w = (255, 0, 255)
 # Modification du vert en cyan
 g = (51, 255, 255)
 # Modification du rouge en violet
