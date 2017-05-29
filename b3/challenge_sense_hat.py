@@ -8,9 +8,12 @@ sense = SenseHat()
 
 # Set up the colours (white, green, red, empty)
 
-w = (150, 150, 150)
-g = (0, 255, 0)
-r = (255, 0, 0)
+# Modification du blanc en jaune
+w = (255, 255, 0)
+# Modification du vert en cyan
+g = (51, 255, 255)
+# Modification du rouge en violet
+r = (204, 0, 255)
 e = (0, 0, 0)
 
 # Create images for three different coloured arrows
