@@ -4,10 +4,10 @@ import random
 sense = SenseHat()
 
 # set up the colours (white, green, red, empty)
-w = [200, 200, 200]
-g = [0, 155, 0]
-r = [155, 0, 0]
-e = [0, 0, 0]
+g = [200, 200, 200]
+r = [0, 155, 0]
+e = [155, 0, 0]
+w = [0, 0, 0]
 
 # create three differently coloured arrows
 arrow = [e,e,e,w,w,e,e,e,
