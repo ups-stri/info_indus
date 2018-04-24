@@ -7,7 +7,7 @@ sense = SenseHat()
 # set up the colours (white, green, red, empty)
 
 w = [160,160,160]
-g = [0,255,0]
+g = [0,254,0]
 r = [255,0,0]
 e = [0,0,0]
 
