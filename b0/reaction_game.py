@@ -8,7 +8,7 @@ sense = SenseHat()
 
 w = [160,160,160]
 g = [0,254,0]
-r = [255,0,0]
+r = [254,0,0]
 e = [0,0,0]
 
 # create images for three different coloured arrows
