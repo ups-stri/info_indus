@@ -8,7 +8,8 @@ sense = SenseHat()
 
 # Set up the colours (white, green, red, empty)
 
-w = (150, 150, 150)
+#w = (150, 150, 150)
+w=(150,150,255)
 g = (0, 255, 0)
 r = (255, 0, 0)
 e = (0, 0, 0)
