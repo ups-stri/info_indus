@@ -63,9 +63,9 @@ def affiche_coord_couleur(coord, couleur):
 # au départ, toutes les cases sont présumées être de l'eau
 def init_LED():
     for coord in \
-        [(no_lig, no_col)
-            for no_lig in range(1, TAILLE_GRILLE + 1)
-                for no_col in range(1, TAILLE_GRILLE + 1)]:
+            [(no_lig, no_col)
+             for no_lig in range(1, TAILLE_GRILLE + 1)
+             for no_col in range(1, TAILLE_GRILLE + 1)]:
         affiche_coord_couleur(coord, COULEUR_MER)
 
 # demande un no de ligne ou de colonne
@@ -99,7 +99,7 @@ def navire_est_touche(navire, coord):
         print('Un navire a été touché par votre tir !')
         navire[coord] = False
         # afficher la case correspondante comme touchée
-        # ...
+        affiche_coord_couleur(coord, COULEUR_TIR_TOUCHE)
         if navire_est_coule(navire):
             print('Le navire touché est coulé !!')
             couler_navire(navire)
@@ -115,7 +115,7 @@ def couler_navire(navire):
     for coord in navire:
         (no_lig, no_col) = coord
         # afficher la case correspondante comme coulée
-        # ...
+        affiche_coord_couleur(coord, COULEUR_TIR_COULE)
     # le navire est supprimé de la flotte
     liste_navires.remove(navire)
 
@@ -130,5 +130,5 @@ while liste_navires:
     if not any([navire_est_touche(navire, coord) for navire in liste_navires]):
         print("Votre tir est tombé dans l'eau")
         # afficher la case correspondante comme un tir raté
-        # ...
+        affiche_coord_couleur(coord, COULEUR_TIR_RATE)
 print('Bravo, vous avez coulé tous les navires')
