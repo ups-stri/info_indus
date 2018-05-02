@@ -5,7 +5,7 @@ sense = SenseHat()
 
 # set up the colours (white, green, red, empty)
 g = [200, 200, 200]
-r = [0, 155, 0]
+r = [0, 155, 155]
 e = [155, 0, 0]
 w = [0, 0, 0]
 
