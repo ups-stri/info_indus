@@ -42,7 +42,7 @@ score = 0
 angle = 0
 play = True
 
-sense.show_message("Keep the arrow pointing up", text_colour=[100, 100, 100])
+sense.show_message("Keep the arrow pointing up", text_colour=[10, 100, 10])
 
 while play == True:
 	last_angle = angle
