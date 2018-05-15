@@ -9,7 +9,11 @@ sense = SenseHat()
 # Set up the colours (white, green, red, empty)
 
 w = (150, 150, 150)
-g = (2, 255, 0)
+<<<<<<< HEAD
+g = (0, 255, 0)
+=======
+g = (0, 255, 0)
+>>>>>>> 506b5028208465b5bc756f8694e23629a42549d3
 r = (255, 0, 0)
 e = (0, 0, 0)
 
