@@ -8,6 +8,7 @@ sense = SenseHat()
 # (elle est constituée de 10 x 10 cases dans le jeu original)
 # une case est identifiée par ses coordonnées (no_ligne, no_colonne)
 # un no_ligne ou no_colonne est compris entre 1 et 8
+#test push
 
 TAILLE_GRILLE = 8
 COULEUR_MER        = (0,   0,   204)
